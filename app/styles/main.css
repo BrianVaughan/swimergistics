@@ -1,0 +1,49 @@
+    body {
+      padding-top: 0px;
+      padding-bottom: 0px;
+    }
+
+    @charset "UTF-8";
+
+    .main{
+        background:rgb(158,158,158);
+        background-image: url("../images/swimmingwallpaper_wallpaperswa.com_44_small.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-width:1440px;
+       /* background-height:800px;*/
+        /*background-size: cover;*/
+    }
+
+    header{
+        display: block;
+        margin-left:0px;
+        margin-top: 0px;
+        padding: 0px 0px 0px 0px;
+        width: 1440px;
+        height: 180px;
+        background-color: rgb(248,248,248);
+
+        /*border: 3px solid red;*/
+
+
+    }
+
+    .top_rip {
+        width: 1440px;
+        height: 80px;
+        background: url("../images/rippy.png") repeat-x;
+        position: absolute;
+        top: 188px;
+
+    }
+
+    .bottom_rip {
+        width: 1440px;
+        height: 80px;
+        background: url("../images/bottomrippy.png") repeat-x;
+        position: absolute;
+        top: 650px;
+
+    }
