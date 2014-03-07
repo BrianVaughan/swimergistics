@@ -45,5 +45,49 @@
         background: url("../images/bottomrippy.png") repeat-x;
         position: absolute;
         top: 650px;
+    }
 
+    .siteMove {
+        padding-top: 200px;
+        padding-bottom: 200px;
+        margin-left: 300px;
+        align: center;
+        min-width: 984px;
+        overflow: scroll;
+        width: 100%;
+        position: relative;
+        min-width: 984px;
+        z-index: 2;
+    }
+
+    .fixed {
+       position: fixed;
+    }
+
+    .pageBody {
+        stylstyle:"top:220px;"
+    }
+
+    .homeBase {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .imgHolder {
+
+        overflow: hidden;
+
+
+    }
+
+    .imgBorder
+    {
+        border-bottom: none;
+        -webkit-border-top-left-radius: 5px;
+        -webkit-border-top-right-radius: 5px;
+        -moz-border-radius-topleft: 5px;
+        -moz-border-radius-topright: 5px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border:5px solid black;
     }
