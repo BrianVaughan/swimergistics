@@ -16,7 +16,7 @@
     <!-- endbuild -->
     <!-- build:css({.tmp,app}) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <!--<link rel="stylesheet" type="text/css" href="css/styles.css">-->
      <!-- endbuild -->
   </head>
   <body ng-app="swimergisticsApp">
@@ -38,6 +38,8 @@
        ga('send', 'pageview');
     </script>
 
+
+
     <!--[if lt IE 9]>
     <script src="bower_components/es5-shim/es5-shim.js"></script>
     <script src="bower_components/json3/lib/json3.min.js"></script>
@@ -55,7 +57,40 @@
         <script src="scripts/app.js"></script>
         <script src="scripts/controllers/main.js"></script>
 
+    <script type="text/javascript">
+        $(document).ready(
+                function()
+                {
+                    fixBackImgsWidth();
 
+                    $('.fixed img').not('.staticBackImg').css({'visibility' : 'visible', 'opacity' : 0});
+
+                    $('.homeBoxLinkSection').hover(
+                            function()
+                            {
+                                // mouse over
+                                console.log($('img', this).attr('alt'));
+                                $('.fixed img[alt="'+$('img', this).attr('alt')+'"]').stop().animate({'opacity' : 1}, {'duration' : 300});
+                            },
+                            function()
+                            {
+                                // mouse out
+                                $('.fixed img').not('.staticBackImg').stop().animate({'opacity' : 0}, {'duration' : 300});
+                            });
+
+                    $(window).resize(
+                            function()
+                            {
+                                fixBackImgsWidth();
+                            });
+                });
+
+        function fixBackImgsWidth()
+        {
+            console.log('@@ ' + $(window).width());
+            $('.fixed img, .fixed').css('width', $(window).width());
+        }
+    </script>
         <!-- endbuild -->
 </body>
 </html>

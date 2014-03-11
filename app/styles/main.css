@@ -5,15 +5,21 @@
 
     @charset "UTF-8";
 
-    .main{
+ /*  .main{
         background:rgb(158,158,158);
         background-image: url("../images/swimmingwallpaper_wallpaperswa.com_44_small.jpg");
         background-repeat: no-repeat;
         background-position: center center;
         background-attachment: fixed;
-        background-width:1440px;
+        background-width:1440px;*/
        /* background-height:800px;*/
         /*background-size: cover;*/
+    /*}*/
+
+    .fixedImage{
+        alt:"Swimming"
+        height:auto;
+        width:100%;
     }
 
     header{
@@ -31,20 +37,20 @@
     }
 
     .top_rip {
-        width: 1440px;
+        width: 100%;
         height: 80px;
         background: url("../images/rippy.png") repeat-x;
         position: absolute;
-        top: 188px;
+        top: 178px;
 
     }
 
     .bottom_rip {
-        width: 1440px;
+        width: 100%;
         height: 80px;
         background: url("../images/bottomrippy.png") repeat-x;
         position: absolute;
-        top: 650px;
+        top: 720px;
     }
 
     .siteMove {
@@ -74,10 +80,7 @@
     }
 
     .imgHolder {
-
         overflow: hidden;
-
-
     }
 
     .imgBorder
@@ -103,7 +106,8 @@
         padding-top:13px;
         text-shadow:rgba(255, 255, 255, .2) 1px 1px 0px;
         text-decoration:none !important; }
-    .largeTxt {
+
+    .largeTxt{
         display:block;
         color:#FFF;
         position:relative;
@@ -116,24 +120,45 @@
         text-shadow:rgba(0, 0, 0, .5) 2px 2px 0px;
         text-decoration:none !important;
     }
-    .homeBoxOverlay { position:absolute; left:0px; top:0px; right:0px; bottom:0px;
+
+    .homeBoxOverlay {
+        position:absolute; left:0px; top:0px; right:0px; bottom:0px;
         background: -moz-linear-gradient(top,  rgba(160,160,160,.1) 0%, rgba(255,255,255,.08) 100%);
         background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(160,160,160,.1)), color-stop(100%,rgba(255,255,255,.08)));
         background: -webkit-linear-gradient(top,  rgba(160,160,160,.1) 0%,rgba(255,255,255,.08) 100%);
         background: -o-linear-gradient(top,  rgba(160,160,160,.1) 0%,rgba(255,255,255,.08) 100%);
         background: -ms-linear-gradient(top,  rgba(160,160,160,.1) 0%,rgba(255,255,255,.08) 100%);
-        background: linear-gradient(top,  rgba(160,160,160,.1) 0%,rgba(255,255,255,.08) 100%); }
-    .homeBoxRibbon { width:68px; height:68px; position:absolute; z-index:10; }
-   .homeBoxLinkSection { display:block; float:left; margin-left:14px; width:218px; height:410px; position:relative; z-index:5; text-decoration:none !important; }
-    .homeBoxLinkSection.farLeft { margin-left:0; }
-    .homeBoxLinkSection .imgHolder { display:block; height:305px; width:218px; overflow:hidden; border-bottom:none;
+        background: linear-gradient(top,  rgba(160,160,160,.1) 0%,rgba(255,255,255,.08) 100%);
+    }
+
+   .homeBoxLinkSection {
+       display:block;
+       float:left;
+       margin-left:14px;
+       width:218px;
+       height:410px;
+       position:relative;
+       z-index:5;
+       text-decoration:none !important; }
+
+    .homeBoxLinkSection.farLeft {
+        margin-left:0;
+    }
+
+    .homeBoxLinkSection .imgHolder {
+        display:block; height:305px; width:218px; overflow:hidden; border-bottom:none;
         -webkit-border-top-left-radius: 5px;
         -webkit-border-top-right-radius: 5px;
         -moz-border-radius-topleft: 5px;
         -moz-border-radius-topright: 5px;
         border-top-left-radius: 5px;
-        border-top-right-radius: 5px; }
-    .homeBoxLinkSection .imgHolder img { background:#FFF; min-width:218px; min-height:305px; }
+        border-top-right-radius: 5px;
+    }
+
+    .homeBoxLinkSection .imgHolder img {
+        background:#FFF; min-width:218px; min-height:305px;
+    }
+
     .homeBoxLinkSection .bottomPiece
     {
         display:block;
@@ -154,6 +179,7 @@
         border-right:5px solid black;
 
     }
+
     .smallTxt { display:block; color:#111; position:relative; z-index:5; font-size:25px; font-family:'IS-HelveticaLTStd-Bold', Arial, sans-serif; padding-top:13px; text-shadow:rgba(255, 255, 255, .2) 1px 1px 0px; text-decoration:none !important; }
     .largeTxt { display:block; color:#FFF; position:relative; z-index:5; font-size:42px; font-family:'IS-Clarendon', Arial, sans-serif; margin-top:-3px; text-shadow:rgba(0, 0, 0, .5) 2px 2px 0px; text-decoration:none !important; }
     .homeBoxButtonShine { display:block; position:absolute; left:0px; top:0px; right:0px; height:30px; background:rgba(255,255,255,.1); z-index:4; }
@@ -172,6 +198,7 @@
       -moz-border-radius-bottomleft: 5px;
       border-bottom-right-radius: 5px;
       border-bottom-left-radius: 5px; }
+
     .boxHover {
         display:block;
         position:absolute;
@@ -179,9 +206,11 @@
         top:0px;
         right:0px;
         bottom:0px;}
+
     .homeBoxLinkSection:hover .bottomPiece .boxHover, .headerNavButton:hover .boxHover, .headerNavButton.active .boxHover {
         display:block; }
-    .boxHover.trail {
+
+    .boxHover.plan {
         background: rgb(191,217,4);
         background: -moz-linear-gradient(top, rgb(191,217,4) 0%, rgba(99,147,49,1) 100%);
         background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(191,217,4,1)), color-stop(100%,rgba(99,147,49,1)));
@@ -190,7 +219,8 @@
         background: -ms-linear-gradient(top,  rgba(191,217,4,1) 0%,rgba(99,147,49,1) 100%);
         background: linear-gradient(top,  rgba(191,217,4,1) 0%,rgba(99,147,49,1) 100%);
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfd904', endColorstr='#639331',GradientType=0 ); }
-    .boxHover.rent { background: rgb(229,127,127);
+
+    .boxHover.create { background: rgb(229,127,127);
         background: -moz-linear-gradient(top,  rgba(229,127,127,1) 0%, rgba(158,4,2,1) 100%);
         background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(229,127,127,1)), color-stop(100%,rgba(158,4,2,1)));
         background: -webkit-linear-gradient(top,  rgba(229,127,127,1) 0%,rgba(158,4,2,1) 100%);
@@ -198,7 +228,8 @@
         background: -ms-linear-gradient(top,  rgba(229,127,127,1) 0%,rgba(158,4,2,1) 100%);
         background: linear-gradient(top,  rgba(229,127,127,1) 0%,rgba(158,4,2,1) 100%);
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e57f7f', endColorstr='#9e0402',GradientType=0 ); }
-    .boxHover.buy { background: rgb(9,168,214);
+
+    .boxHover.visit { background: rgb(9,168,214);
         background: -moz-linear-gradient(top,  rgba(9,168,214,1) 0%, rgba(23,95,156,1) 100%);
         background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(9,168,214,1)), color-stop(100%,rgba(23,95,156,1)));
         background: -webkit-linear-gradient(top,  rgba(9,168,214,1) 0%,rgba(23,95,156,1) 100%);
@@ -206,7 +237,8 @@
         background: -ms-linear-gradient(top,  rgba(9,168,214,1) 0%,rgba(23,95,156,1) 100%);
         background: linear-gradient(top,  rgba(9,168,214,1) 0%,rgba(23,95,156,1) 100%);
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#09a8d6', endColorstr='#175f9c',GradientType=0 ); }
-    .boxHover.service { background: rgb(243,219,125);
+
+    .boxHover.engage { background: rgb(243,219,125);
         background: -moz-linear-gradient(top,  rgba(243,219,125,1) 0%, rgba(187,149,2,1) 100%);
         background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(243,219,125,1)), color-stop(100%,rgba(187,149,2,1)));
         background: -webkit-linear-gradient(top,  rgba(243,219,125,1) 0%,rgba(187,149,2,1) 100%);
@@ -224,6 +256,7 @@
         background: -ms-linear-gradient(top,  rgba(223,251,38,1) 0%,rgba(117,181,83,1) 100%);
         background: linear-gradient(top,  rgba(223,251,38,1) 0%,rgba(117,181,83,1) 100%);
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dffb26', endColorstr='#75b553',GradientType=0 ); }
+
     .headerNavButton.active:hover .boxHover.rent, .headerNavButton:active .boxHover.rent { background: rgb(247,159,159);
         background: -moz-linear-gradient(top,  rgba(247,159,159,1) 0%, rgba(191,38,36,1) 100%);
         background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(247,159,159,1)), color-stop(100%,rgba(191,38,36,1)));
@@ -232,6 +265,7 @@
         background: -ms-linear-gradient(top,  rgba(247,159,159,1) 0%,rgba(191,38,36,1) 100%);
         background: linear-gradient(top,  rgba(247,159,159,1) 0%,rgba(191,38,36,1) 100%);
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f79f9f', endColorstr='#bf2624',GradientType=0 ); }
+
     .headerNavButton.active:hover .boxHover.buy, .headerNavButton:active .boxHover.buy { background: rgb(43,202,248);
         background: -moz-linear-gradient(top,  rgba(43,202,248,1) 0%, rgba(57,127,190,1) 100%);
         background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(43,202,248,1)), color-stop(100%,rgba(57,127,190,1)));
@@ -240,6 +274,7 @@
         background: -ms-linear-gradient(top,  rgba(43,202,248,1) 0%,rgba(57,127,190,1) 100%);
         background: linear-gradient(top,  rgba(43,202,248,1) 0%,rgba(57,127,190,1) 100%);
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2bcaf8', endColorstr='#397fbe',GradientType=0 ); }
+
     .headerNavButton.active:hover .boxHover.service, .headerNavButton:active .boxHover.service { background: rgb(245,253,159);
         background: -moz-linear-gradient(top,  rgba(245,253,159,1) 0%, rgba(221,183,36,1) 100%);
         background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(245,253,159,1)), color-stop(100%,rgba(221,183,36,1)));
@@ -250,6 +285,54 @@
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5fd9f', endColorstr='#ddb724',GradientType=0 ); }
 
     /* CLICK INSET EFFECT */
-    .headerNavButton:active .boxHover, .homeBoxLinkSection:active .bottomPiece .boxHover { -moz-box-shadow: inset 4px 4px 8px 2px rgba(0, 0, 0, .5);
+    .headerNavButton:active .boxHover, .homeBoxLinkSection:active .bottomPiece .boxHover {
+        -moz-box-shadow: inset 4px 4px 8px 2px rgba(0, 0, 0, .5);
         -webkit-box-shadow: inset 4px 4px 8px 2px rgba(0, 0, 0, .5);
-        box-shadow: inset 4px 4px 8px 2px rgba(0, 0, 0, .5); }
+        box-shadow: inset 4px 4px 8px 2px rgba(0, 0, 0, .5);
+    }
+
+    .homeLargeBack {
+        width:100%;
+        height:577px;
+        position:relative; top:210px;
+    }
+
+    .homeLargeBack img {
+        min-height:550px;
+        position:absolute;
+        left:0px;
+        top:0px;
+    }
+
+    .homeLargeImgLoader {
+        visibility:hidden;
+    }
+
+    .homeLargeBack .fadeOffLeft {
+        width:50px;
+        height:577px;
+        position:absolute;
+        left:0px;
+        top:0px;
+        display:none;
+        background: -moz-linear-gradient(left,  rgba(41,57,74,1) 0%, rgba(255,255,255,0) 100%);
+        background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(41,57,74,1)), color-stop(100%,rgba(255,255,255,0)));
+        background: -webkit-linear-gradient(left,  rgba(41,57,74,1) 0%,rgba(255,255,255,0) 100%);
+        background: -o-linear-gradient(left,  rgba(41,57,74,1) 0%,rgba(255,255,255,0) 100%);
+        background: -ms-linear-gradient(left,  rgba(41,57,74,1) 0%,rgba(255,255,255,0) 100%);
+        background: linear-gradient(left,  rgba(41,57,74,1) 0%,rgba(255,255,255,0) 100%); }
+
+    .homeLargeBack .fadeOffRight {
+        width:50px;
+        height:577px;
+        position:absolute;
+        right:0px;
+        top:0px;
+        display:none;
+        background: -moz-linear-gradient(left,  rgba(255,255,255,0) 0%, rgba(43,60,78,1) 100%);
+        background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,255,255,0)), color-stop(100%,rgba(43,60,78,1)));
+        background: -webkit-linear-gradient(left,  rgba(255,255,255,0) 0%,rgba(43,60,78,1) 100%);
+        background: -o-linear-gradient(left,  rgba(255,255,255,0) 0%,rgba(43,60,78,1) 100%);
+        background: -ms-linear-gradient(left,  rgba(255,255,255,0) 0%,rgba(43,60,78,1) 100%);
+        background: linear-gradient(left,  rgba(255,255,255,0) 0%,rgba(43,60,78,1) 100%);
+    }
