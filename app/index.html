@@ -63,7 +63,7 @@
                 {
                     fixBackImgsWidth();
 
-                    $('.fixed img').not('.staticBackImg').css({'visibility' : 'visible', 'opacity' : 0});
+                    $('.fixed').not('.staticBackImg').css({'visibility' : 'visible', 'opacity' : 0});
 
                     $('.homeBoxLinkSection').hover(
                             function()
@@ -75,7 +75,7 @@
                             function()
                             {
                                 // mouse out
-                                $('.fixed img').not('.staticBackImg').stop().animate({'opacity' : 0}, {'duration' : 300});
+                                $('.fixed').not('.staticBackImg').stop().animate({'opacity' : 0}, {'duration' : 300});
                             });
 
                     $(window).resize(
@@ -88,7 +88,7 @@
         function fixBackImgsWidth()
         {
             console.log('@@ ' + $(window).width());
-            $('.fixed img, .fixed').css('width', $(window).width());
+            $('fixed').css('width', $(window).width()+'px');
         }
     </script>
         <!-- endbuild -->
