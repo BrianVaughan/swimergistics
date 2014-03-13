@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="40" selection-start="137" selection-end="137" vertical-scroll-proportion="0.12798634" vertical-offset="0" max-vertical-offset="586">
+            <state line="5" column="47" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
               <folding />
             </state>
           </provider>
@@ -41,10 +41,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="181" selection-start="1546" selection-end="1576" vertical-scroll-proportion="-8.06" vertical-offset="167" max-vertical-offset="1380">
+            <state line="31" column="39" selection-start="1198" selection-end="1198" vertical-scroll-proportion="-0.875" vertical-offset="934" max-vertical-offset="1470">
               <folding />
             </state>
           </provider>
@@ -60,9 +60,10 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="0" selection-start="2528" selection-end="2528" vertical-scroll-proportion="-38.75" vertical-offset="15" max-vertical-offset="1035">
+            <state line="48" column="31" selection-start="1819" selection-end="1819" vertical-scroll-proportion="-14.4" vertical-offset="0" max-vertical-offset="1200">
               <folding>
-                <marker date="1394668024000" expanded="true" signature="1390:1812" placeholder="..." />
+                <marker date="1394672623000" expanded="true" signature="955:1108" placeholder="..." />
+                <marker date="1394672623000" expanded="true" signature="1048:1076" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -78,7 +79,7 @@
       <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/styles/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="263" column="0" selection-start="9272" selection-end="9272" vertical-scroll-proportion="-43.46154" vertical-offset="2815" max-vertical-offset="5385">
+            <state line="308" column="4" selection-start="10393" selection-end="10393" vertical-scroll-proportion="-155.38461" vertical-offset="580" max-vertical-offset="5895">
               <folding />
             </state>
           </provider>
@@ -96,10 +97,10 @@
       <list>
         <option value="$PROJECT_DIR$/bower.json" />
         <option value="$PROJECT_DIR$/app/styles/styles.css" />
-        <option value="$PROJECT_DIR$/app/index.html" />
-        <option value="$PROJECT_DIR$/app/views/main.html" />
         <option value="$PROJECT_DIR$/app/styles/main.css" />
+        <option value="$PROJECT_DIR$/app/views/main.html" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/main.js" />
+        <option value="$PROJECT_DIR$/app/index.html" />
       </list>
     </option>
   </component>
@@ -269,6 +270,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="SearchEverywhereHistory" value="" />
     <property name="FullScreen" value="true" />
+    <property name="LayoutCode.rearrangeEntriesCSS" value="false" />
+    <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
+    <property name="LayoutCode.rearrangeEntriesJavaScript" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -406,7 +410,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="89" column="51" selection-start="3730" selection-end="3730" vertical-scroll-proportion="0.0" vertical-offset="1335" max-vertical-offset="1530">
           <folding>
-            <marker date="1394668024000" expanded="true" signature="1390:1812" placeholder="..." />
+            <marker date="1394672623000" expanded="true" signature="955:1108" placeholder="..." />
+            <marker date="1394672623000" expanded="true" signature="1048:1076" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -451,7 +456,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="89" column="51" selection-start="3730" selection-end="3730" vertical-scroll-proportion="0.0" vertical-offset="834" max-vertical-offset="1530">
           <folding>
-            <marker date="1394668024000" expanded="true" signature="1390:1812" placeholder="..." />
+            <marker date="1394672623000" expanded="true" signature="955:1108" placeholder="..." />
+            <marker date="1394672623000" expanded="true" signature="1048:1076" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -523,30 +529,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/images/rippy.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="0" selection-start="2528" selection-end="2528" vertical-scroll-proportion="-38.75" vertical-offset="15" max-vertical-offset="1035">
-          <folding>
-            <marker date="1394668024000" expanded="true" signature="1390:1812" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="181" selection-start="1546" selection-end="1576" vertical-scroll-proportion="-8.06" vertical-offset="167" max-vertical-offset="1380">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="263" column="0" selection-start="9272" selection-end="9272" vertical-scroll-proportion="-43.46154" vertical-offset="2815" max-vertical-offset="5385">
+        <state line="308" column="4" selection-start="10393" selection-end="10393" vertical-scroll-proportion="-155.38461" vertical-offset="580" max-vertical-offset="5895">
           <folding />
         </state>
       </provider>
@@ -560,7 +545,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="40" selection-start="137" selection-end="137" vertical-scroll-proportion="0.12798634" vertical-offset="0" max-vertical-offset="586">
+        <state line="5" column="47" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="31" selection-start="1819" selection-end="1819" vertical-scroll-proportion="-14.4" vertical-offset="0" max-vertical-offset="1200">
+          <folding>
+            <marker date="1394672623000" expanded="true" signature="955:1108" placeholder="..." />
+            <marker date="1394672623000" expanded="true" signature="1048:1076" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/images/rippy.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="39" selection-start="1198" selection-end="1198" vertical-scroll-proportion="-0.875" vertical-offset="934" max-vertical-offset="1470">
           <folding />
         </state>
       </provider>
