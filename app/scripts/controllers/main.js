@@ -2,9 +2,9 @@
 
 angular.module('swimergisticsApp')
   .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+
+    $scope.setBackground=function(url) {
+        $scope.urlbackimage=url;
+    }
+        $scope.setBackground("../images/swimming_pool_1.jpg");
   });

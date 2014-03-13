@@ -9,7 +9,7 @@
             </div>
         </header>
         <img class="fixedImage"
-             src="../images/IMG_KATE_Small.JPG" />
+             ng-src="{{urlbackimage}}" />
         <!-- src="../images/IMG_KATE_Small.JPG" />-->
        <!-- src="../images/swimming_pool_1.jpg" /> -->
 
@@ -22,7 +22,7 @@
         <div class="pageBody" >
             <div class="homeBox">
             <div class="homeBoxOverlay"></div>
-            <a class="homeBoxLinkSection" href="https://redrockbicycle.com/find-a-trail/">
+            <a class="homeBoxLinkSection" href="https://redrockbicycle.com/find-a-trail/" ng-mouseenter="setBackground('../images/IMG_KATE_Small.JPG')" ng-mouseleave="setBackground('../images/swimming_pool_1.jpg')">
                 <span class="imgHolder">
                   <img class="imgBorder" alt="trail" src="../images/findTrail2.jpg">
                 </span>
@@ -36,7 +36,7 @@
 
                 </span>
             </a>
-            <a class="homeBoxLinkSection" href="https://redrockbicycle.com/rent-a-bike/">
+            <a class="homeBoxLinkSection" href="https://redrockbicycle.com/rent-a-bike/" ng-mouseenter="setBackground('../images/IMG_KATE_Small.JPG')" ng-mouseleave="setBackground('../images/swimming_pool_1.jpg')">
                 <span class="imgHolder">
                     <img class="imgBorder" alt="rent" src="../images/redrockRent1.jpg">
                 </span>
@@ -50,7 +50,7 @@
 
                  </span>
             </a>
-            <a class="homeBoxLinkSection" href="https://redrockbicycle.com/buy-a-bike/">
+            <a class="homeBoxLinkSection" href="https://redrockbicycle.com/buy-a-bike/" ng-mouseenter="setBackground('../images/IMG_KATE_Small.JPG')" ng-mouseleave="setBackground('../images/swimming_pool_1.jpg')">
                 <span class="imgHolder">
                     <img class="imgBorder" alt="buy" src="../images/buyBike.jpg">
                 </span>
@@ -64,7 +64,7 @@
 
                 </span>
             </a>
-            <a class="homeBoxLinkSection" href="https://redrockbicycle.com/service-a-bike/red-rock-tune-ups/">
+            <a class="homeBoxLinkSection" href="https://redrockbicycle.com/service-a-bike/red-rock-tune-ups/" ng-mouseenter="setBackground('../images/IMG_KATE_Small.JPG')" ng-mouseleave="setBackground('../images/swimming_pool_1.jpg')">
                 <span class="imgHolder">
                     <img class="imgBorder" alt="service" src="../images/redrockService1.jpg">
                 </span>
