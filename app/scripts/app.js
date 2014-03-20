@@ -15,4 +15,16 @@ angular.module('swimergisticsApp',['ui.router'])
                 url: "/library",
                 templateUrl: "views/library.html"
             })
+            .state('engage', {
+                url: "/engage",
+                templateUrl: "views/engage.html"
+            })
+            .state('plan', {
+                url: "/plan",
+                templateUrl: "views/plan.html"
+            })
+            .state('create', {
+                url: "/create",
+                templateUrl: "views/create.html"
+            })
     });
