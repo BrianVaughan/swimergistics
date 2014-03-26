@@ -9,11 +9,14 @@ angular.module('swimergisticsApp',['ui.router'])
         $stateProvider
             .state('main', {
                 url: "/",
-                templateUrl: "views/main.html"
+                templateUrl: "views/main.html",
+                controller:"MainCtrl"
+
             })
             .state('library', {
                 url: "/library",
-                templateUrl: "views/library.html"
+                templateUrl: "views/library.html",
+                controller:"libCtrl"
             })
             .state('engage', {
                 url: "/engage",

@@ -1,9 +1,9 @@
-<section ng-controller="libCtrl">
+<section > <!--ng-controller="libCtrl"-->
     <div class="fixed">
         <header>
             <div>
             <div class="logo">
-                <img  alt="swimergistic" src="../images/logo.jpg">
+                <img  alt="swimergistic" src="../images/logo4.png">
             </div>
 
             <!-- Adding the ng-app declaration to initialize AngularJS -->
@@ -39,13 +39,67 @@
         </header>
         <img class="fixedImage"
              ng-src="./images/IMG_KATE_Small.JPG"/>
-        <!-- src="../images/IMG_KATE_Small.JPG" />-->
-        <!-- src="../images/swimming_pool_1.jpg" /> -->
 
         <footer>
             <div class="bottom_rip">
             </div>
         </footer>
     </div>
+
+
+
+   <div class="siteMoveLibrary">
+        <div class="pageBody">
+            <div class="homeBox">
+                <div class="homeBoxOverlayLibrary">
+
+                   <form novalidate class="css-form">
+
+                        <span class=largeTxtAltitude>Swim Event:</span>
+                        <select ng-model="swim.event">
+                        <option>50 Free Style</option>
+                        <option>100 Free Style</option>
+                        <option>200 Free Style</option>
+                        </select>
+                       <span class=largeTxtAltitude>Time</span>
+                       <input type="number" ng-model="swim.minute"  min="0" max="99" value='00' placeholder='00' maxlength="2"  required> <span class=largeTxtAltitude> : </span>
+                       <input type="number" ng-model="swim.seconds"  min="0" max="99" value='00' placeholder='00' maxlength="2" required>  <span class=largeTxtAltitude> .</span>
+                       <input type="number" ng-model="swim.fraction" min="0" max="99" value='00' placeholder='00' maxlength="2" required>
+                       <br />
+                       <br />
+                       <span class=largeTxtAltitude>From:</span>
+                       <select ng-model="swim.from">
+                           <option>Long Course Meter</option>
+                           <option>Short Course Yard</option>
+                           <option>Short Course Meter</option>
+                       </select>
+
+                       <span class=largeTxtAltitude>To:</span>
+                       <select ng-model="swim.to">
+                           <option>Long Course Meter</option>
+                           <option>Short Course Yard</option>
+                           <option>Short Course Meter</option>
+                       </select>
+                       <br />
+                       <br />
+                       <span class=largeTxtAltitude>Altitude Adjustment:</span>
+                       <select ng-model="swim.Altitude">
+                           <option>None</option>
+                           <option>3000-4250 ft</option>
+                           <option>4251-6500 ft</option>
+                           <option>65000+</option>
+                       </select>
+                       <br />
+                       <br />
+                       <button ng-click="convert(swim)">
+                           Convert
+                       </button>
+                       <span class=largeTxtAltitude>count: {{ swim.result}}</span>
+
+                    </form>
+                  </div>
+            </div>
+        </div>
+   </div>
 </section>
 
