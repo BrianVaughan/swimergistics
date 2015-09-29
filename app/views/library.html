@@ -56,10 +56,24 @@
                    <form novalidate class="css-form">
 
                         <span class=largeTxtAltitude>Swim Event:</span>
-                        <select ng-model="swim.event">
-                        <option>50 Free Style</option>
-                        <option>100 Free Style</option>
-                        <option>200 Free Style</option>
+                        <select ng-model="swim.event" placeholder='Select Event'>
+                            <option>50 Free Style</option>
+                            <option>100 Free Style</option>
+                            <option>200 Free Style</option>
+                            <option>400/500 Free Style</option>
+                            <option>800/1000 Free Style</option>
+                            <option>1500/1650 Free Style</option>
+                            <option>50 Backstroke Style</option>
+                            <option>100 Backstroke Style</option>
+                            <option>200 Backstroke Style</option>
+                            <option>50 Breaststroke Style</option>
+                            <option>100 Breaststroke Style</option>
+                            <option>200 Breaststroke Style</option>
+                            <option>50 Butterfly Style</option>
+                            <option>100 Butterfly Style</option>
+                            <option>200 Butterfly Style</option>
+                            <option>200 Individual Medley</option>
+                            <option>400 Individual Medley</option>
                         </select>
                        <span class=largeTxtAltitude>Time</span>
                        <input type="number" ng-model="swim.minute"  min="0" max="99" value='00' placeholder='00' maxlength="2"  required> <span class=largeTxtAltitude> : </span>
@@ -68,14 +82,14 @@
                        <br />
                        <br />
                        <span class=largeTxtAltitude>From:</span>
-                       <select ng-model="swim.from">
+                       <select ng-model="swim.from" placeholder='Select Course'>
                            <option>Long Course Meter</option>
                            <option>Short Course Yard</option>
                            <option>Short Course Meter</option>
                        </select>
 
                        <span class=largeTxtAltitude>To:</span>
-                       <select ng-model="swim.to">
+                       <select ng-model="swim.to" placeholder='Select Course'>
                            <option>Long Course Meter</option>
                            <option>Short Course Yard</option>
                            <option>Short Course Meter</option>
@@ -83,18 +97,18 @@
                        <br />
                        <br />
                        <span class=largeTxtAltitude>Altitude Adjustment:</span>
-                       <select ng-model="swim.Altitude">
-                           <option>None</option>
+                       <select ng-model="swim.Altitude" required ng-options='option.value as option.name for option in typeOptions'>
+<!--                           <option>None</option>
                            <option>3000-4250 ft</option>
                            <option>4251-6500 ft</option>
-                           <option>65000+</option>
+                           <option>65000+</option>-->
                        </select>
                        <br />
                        <br />
                        <button ng-click="convert(swim)">
                            Convert
                        </button>
-                       <span class=largeTxtAltitude>count: {{ swim.result}}</span>
+                       <span class=largeTxtAltitude>  converted time: {{ swim.result}}</span>
 
                     </form>
                   </div>
