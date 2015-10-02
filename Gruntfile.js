@@ -322,7 +322,7 @@ var pkg = require('./package.json');
         singleRun: true
       }
     },
- 
+
   // Various Grunt tasks...
 
   buildcontrol: {
@@ -334,7 +334,7 @@ var pkg = require('./package.json');
     },
     pages: {
       options: {
-        remote: 'git@github.com:BrianVaughan/grunt_deployment_tutorial.git',
+        remote: 'git@github.com:BrianVaughan/swimergistics.git',
         branch: 'gh-pages'
       }
     },
