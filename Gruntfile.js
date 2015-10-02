@@ -394,6 +394,7 @@ var pkg = require('./package.json');
     'copy:dist',
     'cdnify',
     'cssmin',
+    'uglify',
     'rev',
     'usemin',
     'htmlmin'
