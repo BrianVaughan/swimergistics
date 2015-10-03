@@ -6,5 +6,5 @@ angular.module('swimergisticsApp')
         $scope.setBackground = function (url) {
             $scope.urlbackimage = url;
         }
-        $scope.setBackground("../images/swimming_pool_1.jpg");
+        $scope.setBackground("../images/Swimming_pool_1.jpg");
     });
