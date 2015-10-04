@@ -2,7 +2,7 @@
 
 angular.module('swimergisticsApp')
     .controller('MainCtrl', function ($scope) {
-        $scope.mainswimimage='Swimming_pool_1';
+        $scope.mainswimimage='swimming_pool_1';
         $scope.titleimage='SwimergisticTitle1'; 
         $scope.logo='logo4';
         $scope.setBackground = function (url) {
