@@ -334,7 +334,7 @@ var pkg = require('./package.json');
     },
     pages: {
       options: {
-        remote: 'https://github.com/BrianVaughan/swimergistics.git',
+        remote: 'git@github.com:BrianVaughan/swimergistics.git',
         branch: 'gh-pages'
       }
     },
